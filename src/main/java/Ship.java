@@ -6,6 +6,7 @@ public class Ship extends AShip
     private final int capacity;
     private final int speed;
     private int[] route;
+    private int[] position;
     private final String country;
     public Ship(int attack,int capacity,int speed,String country)
     {
@@ -26,5 +27,15 @@ public class Ship extends AShip
     public int[] getRoute()
     {
         return this.route;
+    }
+    public void deleteRoute(){
+        this.route=null;
+    }
+    public int[] getPosition(){ return this.position;    }
+    public void setPosition(int[]position){this.position=position;}
+    public int getSpeed(){return this.speed;}
+
+    public int getCapacity() {
+        return this.capacity;
     }
 }

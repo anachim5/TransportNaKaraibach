@@ -62,34 +62,45 @@ public class Randomize implements IRandomize
 
         return x;
     }
+    //metoda tworzaca losowa wartosc ataku statku
     public static int randomAttack()
     {
         int x = (int) ((Math.random()*((30-15)+1))+15);
 
         return x;
     }
+    //metoda tworzaca losowa predkosc statku
     public static int randomSpeed()
     {
         int x = (int) ((Math.random()*((30-15)+1))+15);
 
         return x;
     }
+    //metoda tworząca losową pojemnośc statku
     public static int randomCapacity()
     {
         int x = (int) ((Math.random()*((300-50)+1))+50);
 
         return x;
     }
+    //metoda tworząca losową ilość statków we flocie
     public static int randomNumberOfShips()
     {
         int x = (int) ((Math.random()*((10-5)+1))+5);
 
         return x;
     }
+    //metoda tworząca losową ilość ticków symulacji
     public static int randomTime()
     {
         int x = (int) ((Math.random()*((30000-25000)+1))+25000);
 
         return x;
+    }
+    public static int[] createRoute(Map mapa)
+    {   int x= (int)(Math.random()*(mapa.getCities().size()));
+        //Wybranie miasta z mapy
+        City losoweMiasto= (City) mapa.getCities().get(x);
+        return losoweMiasto.getPosition();
     }
 }

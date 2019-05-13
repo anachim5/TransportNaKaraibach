@@ -24,4 +24,8 @@ public class Nation
     {
         return this.name;
     }
+    public void earnGold(int amount)
+    {
+        this.tresure+=amount;
+    }
 }

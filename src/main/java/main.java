@@ -26,33 +26,41 @@ public class main
         //4.Symulacja
         for ( int time=0;time<Randomize.randomTime();time++)
         {   //4.0 Każdy statek
+            while(Mapa.getNationsIterator().hasNext())
+            {
+                Object nacja=Mapa.getNationsIterator().next();
+                Nation Nacja=(Nation)nacja;
+                while(Nacja.getFleet().getFleetIterator().hasNext())
+                {
+                        Object sHip=Nacja.getFleet().getFleetIterator().next();
+                        Ship ship=(Ship)sHip;
+                    //4.1 Sprawdzanie czy statek ma trasę
+                    if (!ShipIntegrations.hasRoute(ship)) {
+                        ShipIntegrations.createRoute(ship,Mapa);
+                        ShipIntegrations.move(ship);
+                    }
+                    //4.2 Sprawdzanie czy statek jest w miescie
+                    if (ShipIntegrations.inCity(ship))
+                    {
+                        ShipIntegrations.sellProduct(ship,Mapa,Nacja);
+                        ShipIntegrations.deleteRoute(ship);
+                        continue;
+                    }
+                    //4.3 Sprawdzanie czy statek walczy
+                    if (ShipIntegrations.inFight(ship,Mapa))
+                    {
+                        ShipIntegrations.Fight(ship);
 
-            //4.1 Sprawdzanie czy statek ma trasę
-            if (!ShipIntegrations.hasRoute(ship))
-            {
-                ShipIntegrations.createRoute(ship);
-                ShipIntegrations.move(ship);
-            }
-            //4.2 Sprawdzanie czy statek jest w miescie
-            if (ShipIntegrations.inCity(ship))
-            {
-                ShipIntegrations.sellProduct(ship);
-                ShipIntegrations.resetRoute(ship);
-                continue;
-            }
-            //4.3 Sprawdzanie czy statek walczy
-            if(ShipIntegrations.inFight(ship))
-            {
-                ShipIntegrations.Fight(ship);
+                    }
+                    //4.4 Ruch statku
+                    ShipIntegrations.move(ship);
+                    //Wypisanie wyniku co 1000 ticków
+                    if (time % 1000 == 0)
+                    {
+                        Results.printResults(Mapa, time);
 
-            }
-            //4.4 Ruch statku
-            ShipIntegrations.move(ship);
-            //Wypisanie wyniku co
-            if(time%1000==0)
-            {
-                Results.printResults(Mapa,time);
-
+                    }
+                }
             }
         }
         //5.Wyniki

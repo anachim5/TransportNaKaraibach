@@ -9,5 +9,13 @@ public class City
         this.price=price;
         this.position=position;
     }
+    public int[] getPosition()
+    {
+        return this.position;
+    }
+    public int getProductPrice()
+    {
+        return this.price;
+    }
 
 }

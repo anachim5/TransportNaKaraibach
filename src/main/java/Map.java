@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 //Klasa definiująca mapę na której poruszają się statki
 public class Map
@@ -35,5 +36,16 @@ public class Map
     public Nation getNation(int nrNation)
     {
         return this.nations.get(nrNation);
+    }
+    public Iterator getNationsIterator(){return nations.iterator();}
+    public ArrayList getCities(){return this.cities;}
+    public City findCity(int[] position)
+    {   while(cities.iterator().hasNext())
+        {
+            if(cities.iterator().next().getPosition()==position)
+            {
+                return cities.iterator().next();
+            }
+        }
     }
 }
