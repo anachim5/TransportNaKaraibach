@@ -8,6 +8,7 @@ public class Ship extends AShip
     private int[] route;
     private int[] position;
     private final String country;
+    private int inventory;
     public Ship(int attack,int capacity,int speed,String country)
     {
         //Tworzenie statku
@@ -23,6 +24,7 @@ public class Ship extends AShip
     public void AddRoute(int[] route)
     {
         this.route=route;
+        this.inventory=this.capacity;
     }
     public int[] getRoute()
     {
@@ -30,12 +32,13 @@ public class Ship extends AShip
     }
     public void deleteRoute(){
         this.route=null;
+        this.inventory=0;
     }
     public int[] getPosition(){ return this.position;    }
     public void setPosition(int[]position){this.position=position;}
     public int getSpeed(){return this.speed;}
+    public int getAttack(){return this.attack;}
+    public int getCapacity() { return this.capacity;}
+    protected void resetInventory(){this.inventory=0;}
 
-    public int getCapacity() {
-        return this.capacity;
-    }
 }

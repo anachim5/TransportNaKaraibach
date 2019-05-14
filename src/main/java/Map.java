@@ -47,5 +47,6 @@ public class Map
                 return cities.iterator().next();
             }
         }
+        return null;
     }
 }

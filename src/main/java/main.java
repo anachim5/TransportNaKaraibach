@@ -1,8 +1,9 @@
+import java.io.IOException;
 
 public class main
 {
     //Główna metoda w której są wykonywane akcje w całej symulacji
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
         //1.Tworzenie mapy
         Map Mapa = Simulation.createMap(Randomize.randomizeMapSize());
@@ -49,7 +50,7 @@ public class main
                     //4.3 Sprawdzanie czy statek walczy
                     if (ShipIntegrations.inFight(ship,Mapa))
                     {
-                        ShipIntegrations.Fight(ship);
+                        ShipIntegrations.Fight(ship,Mapa);
 
                     }
                     //4.4 Ruch statku
@@ -64,6 +65,7 @@ public class main
             }
         }
         //5.Wyniki
-        Results.printResults(Mapa);
+        Results.printResults(Mapa, 0);
+
     }
 }

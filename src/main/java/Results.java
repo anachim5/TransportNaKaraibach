@@ -1,15 +1,22 @@
+import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.PrintWriter;
+import java.io.IOException;
 
 public class Results
 {
-public static void printResults(Map Mapa,int time)
-    {   String filename="Wyniki_Tick_"+"time";
-        FileWriter fw =new FileWriter(filename);
-        PrintWriter pw = new PrintWriter(fw);
+public static void printResults(Map Mapa,int time) throws IOException
+    {
+        String report="Result for tick: "+time;
+        BufferedWriter writer = new BufferedWriter(new FileWriter("results.txt", true));
+        writer.write(report);
+        writer.newLine();
         while(Mapa.getNationsIterator().hasNext())
         {
-            String report ="";
+             Nation nation= (Nation)Mapa.getNationsIterator().next();
+             String strToWrite=nation.getName()+String.valueOf(nation.getTresure());
+             writer.write(strToWrite);
+             writer.newLine();
         }
-        }
+        writer.close();
+    }
 }

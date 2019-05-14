@@ -28,4 +28,8 @@ public class Nation
     {
         this.tresure+=amount;
     }
+    public int getTresure()
+    {
+        return this.tresure;
+    }
 }
