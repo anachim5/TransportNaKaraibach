@@ -21,12 +21,12 @@ public static Nation createNation()
         int tresure=Randomize.randomizeTresure();
         return new Nation(name,tresure);
     }
-public static Ship createShip(String country)
+public static Ship createShip(String country,Map mapa,int Nr)
     {
         int attack=Randomize.randomAttack();
         int capacity=Randomize.randomCapacity();
         int speed=Randomize.randomSpeed();
-        return new Ship(attack,capacity,speed,country);
+        return new Ship(attack,capacity,speed,country,mapa,Nr);
     }
 }
 

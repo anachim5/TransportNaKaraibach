@@ -24,7 +24,10 @@ public class ShipIntegrations {
             int[] route = statek.getRoute();
             boolean drogax = route[0] > position[0];
             boolean drogay = route[1] > position[1];
-
+            if(Math.abs(route[0]-position[0])<statek.getSpeed() || Math.abs(route[1]-position[1])<statek.getSpeed())
+            {
+                statek.setPosition(route);
+            }
             //jezeli statek porusza sie kierunku ujemnym predkosc(trase na jeden tick)odejmujemy
             //wartość prędkosci do pozycji,a jeżeli w dodatnim dodajemy
             if (drogax  && drogay ) {
@@ -47,10 +50,14 @@ public class ShipIntegrations {
     }
 
     //metoda sprawdzajaca czy statek znajduje sie w ktoryms miast na mapie
-    public static boolean inCity(Ship ship) {   //jezeli pozycja statku jest miejscem docelowym to znajduje sie on w miescie
-        if (ship.getPosition() == ship.getRoute()) {
+    public static boolean inCity(Ship ship)
+    {   //jezeli pozycja statku jest miejscem docelowym to znajduje sie on w miescie
+        if(ship.getPosition() == ship.getRoute())
+        {
             return true;
-        } else {
+        }
+        else
+        {
             return false;
         }
     }
@@ -59,7 +66,7 @@ public class ShipIntegrations {
     public static void sellProduct(Ship ship, Map map, Nation nation) {   //znajdujemy miasto w ktorym jest statek
         City goalCity = map.findCity(ship.getPosition());
         //obliczamy dochod ze sprzedazy produktow na statku
-        int amount = ship.getCapacity() * goalCity.getProductPrice();
+        int amount = ship.getInventory() * goalCity.getProductPrice();
         // dodajemy zloto to skarbca nacji do ktorej nalezy statek
         nation.earnGold(amount);
     }
@@ -73,11 +80,13 @@ public class ShipIntegrations {
     }
 
     private static Ship findNearestShip(Ship ship, Map mapa) {
-        while (mapa.getNationsIterator().hasNext()) {
+        while (mapa.getNationsIterator().hasNext())
+        {
             Nation nation = (Nation) mapa.getNationsIterator().next();
-            while (nation.getFleet().getFleetIterator().hasNext()) {
+            while (nation.getFleet().getFleetIterator().hasNext())
+            {
                 Ship statek = (Ship) nation.getFleet().getFleetIterator().next();
-                if (statek.getPosition() == ship.getPosition())
+                if (statek.getPosition() == ship.getPosition()&& statek.getNr()!=ship.getNr())
                     return statek;
             }
         }
@@ -93,8 +102,9 @@ public class ShipIntegrations {
             if (foundShip.getAttack() < ship.getAttack()) {
                 foundShip.resetInventory();
             }
-            if (foundShip.getAttack() == ship.getAttack()) {
-
+            if (foundShip.getAttack() == ship.getAttack())
+            {
+                int remis=0;
             }
         }
     }

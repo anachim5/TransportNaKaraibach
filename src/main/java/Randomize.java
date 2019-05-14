@@ -43,7 +43,7 @@ public class Randomize implements IRandomize
     public static int randomNumberOfNations()
     {
         Random gen = new Random();
-        return gen.nextInt(5);
+        return gen.nextInt(5)+2;
 
     }
     //metoda wybierajaca losowa nazwe nacji
@@ -52,6 +52,18 @@ public class Randomize implements IRandomize
         ArrayList<String> namesOfNations=new ArrayList<>();
         namesOfNations.add("Anglia");
         namesOfNations.add("Hiszpania");
+        namesOfNations.add("Hiszpania2");
+        namesOfNations.add("Hiszpania3");
+        namesOfNations.add("Hiszpania65");
+        namesOfNations.add("Hiszpania4");
+        namesOfNations.add("Hiszp32ania");
+        namesOfNations.add("Hiszp324ania");
+        namesOfNations.add("Hiszp432ania");
+        namesOfNations.add("Hisfdzpania");
+        namesOfNations.add("Hiszpania");
+        namesOfNations.add("Hisbcwr3zpania");
+        namesOfNations.add("Hisz52pania");
+        namesOfNations.add("Hiszp67ania");
         Random gen=new Random();
         return namesOfNations.get(gen.nextInt(namesOfNations.size()));
     }
@@ -98,9 +110,11 @@ public class Randomize implements IRandomize
         return x;
     }
     public static int[] createRoute(Map mapa)
-    {   int x= (int)(Math.random()*(mapa.getCities().size()));
+    {
+        int size=mapa.getCities().size();
+        Random gen=new Random();
         //Wybranie miasta z mapy
-        City losoweMiasto= (City) mapa.getCities().get(x);
+        City losoweMiasto= (City) mapa.getCities().get(gen.nextInt(size));
         return losoweMiasto.getPosition();
     }
 }

@@ -40,11 +40,13 @@ public class Map
     public Iterator getNationsIterator(){return nations.iterator();}
     public ArrayList getCities(){return this.cities;}
     public City findCity(int[] position)
-    {   while(cities.iterator().hasNext())
+    {   Iterator citiesIterator=this.cities.iterator();
+        while(citiesIterator.hasNext())
         {
-            if(cities.iterator().next().getPosition()==position)
+            City foundcity =(City)citiesIterator.next();
+            if(foundcity.getPosition()==position)
             {
-                return cities.iterator().next();
+                return foundcity;
             }
         }
         return null;
