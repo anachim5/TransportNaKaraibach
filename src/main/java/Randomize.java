@@ -1,120 +1,111 @@
-import java.lang.Math;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Randomize implements IRandomize
+/**Klasa definiująca metody generujące losowe wartości dla elementów symulacji*/
+public class Randomize
 {
-    //metoda tworząca Losową wielkosc mapy
-    public static  int[] randomizeMapSize()
-    {
-        int x = (int) ((Math.random()*((512-128)+1))+128);
-        int[] d={x,x};
-        return d;
-    }
-    //Metoda wybierajaca losowa nazwe miasta
-    public static String randomizeName()
-    {
-        ArrayList<String> namesOfCities=new ArrayList<>();
-        namesOfCities.add("Askcl");
-        namesOfCities.add("dfsclafsd");
-        Random gen=new Random();
-        return namesOfCities.get(gen.nextInt(namesOfCities.size()));
-    }
-    //Metoda wybierajaca losowa pozycje miasta na mapie
-    public static int[] positionOfCity(Map mapa)
-    {
-        int x= (int) (Math.random()*mapa.getSize());
-        int y= (int) (Math.random()*mapa.getSize());
-        int[] d={x,y};
-        return d;
-    }
-    //metoda tworząca losową cene produktów w miescie
-    public static int randomPrice()
-    {
-        return (int)((Math.random()*30)+1);
-    }
-    //metoda tworząca losową ilosc miast
-    public static int randomNumberOfCities()
-    {
-        Random gen = new Random();
-        return gen.nextInt(10);
-    }
-    //metoda tworzaca losowa ilosc nacji
-    public static int randomNumberOfNations()
-    {
-        Random gen = new Random();
-        return gen.nextInt(5)+2;
+/**Ziarno generatora losowego*/
+private static Seed seed;
+private Random generator;
+private ArrayList<String> CityNames;
+private ArrayList<String> NationNames;
 
-    }
-    //metoda wybierajaca losowa nazwe nacji
-    public static String nationName()
-    {
-        ArrayList<String> namesOfNations=new ArrayList<>();
-        namesOfNations.add("Anglia");
-        namesOfNations.add("Hiszpania");
-        namesOfNations.add("Hiszpania2");
-        namesOfNations.add("Hiszpania3");
-        namesOfNations.add("Hiszpania65");
-        namesOfNations.add("Hiszpania4");
-        namesOfNations.add("Hiszp32ania");
-        namesOfNations.add("Hiszp324ania");
-        namesOfNations.add("Hiszp432ania");
-        namesOfNations.add("Hisfdzpania");
-        namesOfNations.add("Hiszpania");
-        namesOfNations.add("Hisbcwr3zpania");
-        namesOfNations.add("Hisz52pania");
-        namesOfNations.add("Hiszp67ania");
-        Random gen=new Random();
-        return namesOfNations.get(gen.nextInt(namesOfNations.size()));
-    }
-    //metoda generujaca losowy poczatkowy skarb nacji
-    public static  int randomizeTresure()
-    {
-        int x = (int) ((Math.random()*((30000-25000)+1))+25000);
 
+public Randomize(Seed seed)
+{
+    this.seed=seed;
+    this.generator=new Random(seed.getSeed());
+    this.CityNames=new ArrayList<>();
+}
+    /**Metoda tworząca Losową wielkosc mapy*/
+    static int randomizeMapSize()
+    {
+        int x=this.generator.nextInt(512)+128;
         return x;
     }
-    //metoda tworzaca losowa wartosc ataku statku
-    public static int randomAttack()
+    /**Metoda wybierajaca losowa nazwe miasta*/
+    public String randomizeName()
     {
-        int x = (int) ((Math.random()*((30-15)+1))+15);
-
+    int x=this.generator.nextInt(this.CityNames.size());
+        return this.CityNames.get(x);
+    }
+    /**metoda tworząca losową cene produktów w miescie*/
+    public int randomPrice()
+    {
+        int x=this.generator.nextInt(50)+2;
         return x;
     }
-    //metoda tworzaca losowa predkosc statku
-    public static int randomSpeed()
+    /**metoda tworząca losową ilosc miast*/
+    int randomNumberOfCities()
     {
-        int x = (int) ((Math.random()*((30-15)+1))+15);
-
+        int x=this.generator.nextInt(10)+1;
         return x;
     }
-    //metoda tworząca losową pojemnośc statku
-    public static int randomCapacity()
+    /**metoda tworzaca losowa ilosc nacji*/
+    public int randomNumberOfNations()
     {
-        int x = (int) ((Math.random()*((300-50)+1))+50);
-
+        int x=this.generator.nextInt(5)+1;
         return x;
     }
-    //metoda tworząca losową ilość statków we flocie
-    public static int randomNumberOfShips()
+    /**metoda wybierajaca losowa nazwe nacji*/
+    public String nationName()
     {
-        int x = (int) ((Math.random()*((10-5)+1))+5);
-
+        int x=this.generator.nextInt(this.NationNames.size());
+        return this.CityNames.get(x);
+    }
+    /**metoda generujaca losowy poczatkowy skarb nacji*/
+    public int randomizeTresure()
+    {
+        int x=this.generator.nextInt(30000)+1;
         return x;
     }
-    //metoda tworząca losową ilość ticków symulacji
-    public static int randomTime()
+    /**metoda tworzaca losowa wartosc ataku statku*/
+    public int randomAttack()
     {
-        int x = (int) ((Math.random()*((30000-25000)+1))+25000);
-
+        int x=this.generator.nextInt(30)+1;
         return x;
     }
-    public static int[] createRoute(Map mapa)
+    /**metoda tworzaca losowa predkosc statku*/
+    public int randomSpeed()
     {
-        int size=mapa.getCities().size();
-        Random gen=new Random();
-        //Wybranie miasta z mapy
-        City losoweMiasto= (City) mapa.getCities().get(gen.nextInt(size));
-        return losoweMiasto.getPosition();
+        int x=this.generator.nextInt(30)+1;
+        return x;
+    }
+    /**metoda tworząca losową pojemnośc statku*/
+    public int randomCapacity()
+    {
+        int x=this.generator.nextInt(150)+20;
+        return x;
+    }
+    /**metoda tworząca losową ilość statków we flocie*/
+    public int randomNumberOfShips()
+    {
+        int x=this.generator.nextInt(15)+2;
+        return x;
+    }
+    /**metoda tworząca losową ilość ticków symulacji*/
+    int randomTime()
+    {
+        int x=this.generator.nextInt(10000)+20000;
+        return x;
+    }
+    /**metoda tworząca losową trasę do miasta na mapie*/
+    int[] createRoute(IMap mapa)
+    {   /**Wybieramy losowe miasto z listy
+        * a następnie uzyskujemy jego pozycję
+        *  którą zwraca metoda.
+        */
+        int x=this.generator.nextInt(mapa.getCities().size());
+        ICity targetCity=(City) mapa.getCities().get(x);
+        return targetCity.getPosition();
+    }
+    /**Metoda wybierajaca losowa pozycje miasta na mapie*/
+    int[] positionOfCity(Map mapa)
+    {
+      int x=this.generator.nextInt(mapa.getSize());
+      int y=this.generator.nextInt(mapa.getSize());
+      int d[]={x,y};
+      return d;
     }
 }
+
