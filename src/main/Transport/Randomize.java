@@ -2,23 +2,23 @@ import java.util.ArrayList;
 import java.util.Random;
 
 /**Klasa definiująca metody generujące losowe wartości dla elementów symulacji*/
-public class Randomize
+public class Randomize implements IRandomize
 {
 /**Ziarno generatora losowego*/
-private static Seed seed;
+private static ISeed seed;
 private Random generator;
 private ArrayList<String> CityNames;
 private ArrayList<String> NationNames;
 
 
-public Randomize(Seed seed)
+public Randomize(ISeed seed)
 {
     this.seed=seed;
     this.generator=new Random(seed.getSeed());
     this.CityNames=new ArrayList<>();
 }
     /**Metoda tworząca Losową wielkosc mapy*/
-    static int randomizeMapSize()
+    public int randomizeMapSize()
     {
         int x=this.generator.nextInt(512)+128;
         return x;
@@ -36,7 +36,7 @@ public Randomize(Seed seed)
         return x;
     }
     /**metoda tworząca losową ilosc miast*/
-    int randomNumberOfCities()
+    public int randomNumberOfCities()
     {
         int x=this.generator.nextInt(10)+1;
         return x;
@@ -84,13 +84,13 @@ public Randomize(Seed seed)
         return x;
     }
     /**metoda tworząca losową ilość ticków symulacji*/
-    int randomTime()
+    public int randomTime()
     {
         int x=this.generator.nextInt(10000)+20000;
         return x;
     }
     /**metoda tworząca losową trasę do miasta na mapie*/
-    int[] createRoute(IMap mapa)
+    public int[] createRoute(IMap mapa)
     {   /**Wybieramy losowe miasto z listy
         * a następnie uzyskujemy jego pozycję
         *  którą zwraca metoda.
@@ -100,7 +100,7 @@ public Randomize(Seed seed)
         return targetCity.getPosition();
     }
     /**Metoda wybierajaca losowa pozycje miasta na mapie*/
-    int[] positionOfCity(Map mapa)
+    public int[] posofCity(IMap mapa)
     {
       int x=this.generator.nextInt(mapa.getSize());
       int y=this.generator.nextInt(mapa.getSize());

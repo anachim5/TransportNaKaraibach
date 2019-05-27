@@ -14,8 +14,6 @@ public interface IShip
     public void deleteRoute();
     /**metoda która uzyskuje pozycję statyku w danym ticku*/
     public int[] getPosition();
-    /**metoda która uzyskuje pozycję statyku w danym ticku*/
-    public int[] getPosition();
     /**metoda która ustala pozycję statku*/
     public void setPosition(int[]position);
     /**metoda która udostępnia prędkość statku*/
@@ -32,4 +30,10 @@ public interface IShip
     int getNr();
     /**Metoda która zwraca ładunek statku*/
     public int getInventory();
+    /**Metoda która sprawdza czy statek ma trasę*/
+    public boolean hasRoute();
+    /**Metoda która porusza statek*/
+    public void move();
+    /**Metoda która sprawdza czy statek jest w mieście*/
+    public boolean inCity();
 }

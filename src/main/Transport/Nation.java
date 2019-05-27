@@ -13,7 +13,7 @@ public class Nation implements INation
 {
     private final String name;
     private int tresure;
-    private IFleet fleet;
+    private Fleet fleet;
     /**Konstruktor floty */
     public Nation(String name,int tresure)
     {
@@ -23,12 +23,12 @@ public class Nation implements INation
     /**Metoda tworząca flotę*/
     public void createFleet()
     {
-        this.fleet=new IFleet();
+        this.fleet=new Fleet();
     }
     /**Metoda udostępniająca flotę*/
     public IFleet getFleet()
     {
-        return this.fleet;
+        return (IFleet)this.fleet;
     }
     /**Metoda udostępniająca nazwę nacji*/
     public String getName()

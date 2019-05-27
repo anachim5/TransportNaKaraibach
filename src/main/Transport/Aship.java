@@ -15,17 +15,18 @@ public  abstract class Aship implements IShip
     private final int speed;
     private int[] route;
     private int[] position;
+    private int distance;
     private final String country;
     private final int Nr;
     private int inventory;
     /**Konstruktor statku*/
-    public AShip(int attack,int capacity,int speed,String country,Map mapa,int Nr)
+    public Aship(int attack,int capacity,int speed,String country,IMap mapa,int Nr)
     {
         /**
-        *Tworzenie statku
-        *Pola są statyczne ponieważ raz utworzony statek nie może mieć zmienionych już swoich statystyk
-        *i nie może zmienić państwa dla którego pływa
-        */
+         *Tworzenie statku
+         *Pola są statyczne ponieważ raz utworzony statek nie może mieć zmienionych już swoich statystyk
+         *i nie może zmienić państwa dla którego pływa
+         */
         this.attack=attack;
         this.capacity=capacity;
         this.speed=speed;
@@ -69,4 +70,38 @@ public  abstract class Aship implements IShip
     public int getNr() {return Nr; }
     /**Metoda która zwraca ładunek statku*/
     public int getInventory() { return inventory; }
+    /**Metoda która wyznacza dystans jaki musi pokonać statek*/
+    private void calculateDistance()
+    {
+        int x=(this.route[0]-this.position[0])*(this.route[0]-this.position[0]);
+        int y=(this.route[1]-this.position[1])*(this.route[1]-this.position[1]);
+        this.distance= (int) Math.sqrt(x+y);
+    }
+    /**Metoda która sprawdza czy statek ma trasę*/
+    public boolean hasRoute()
+    {
+        if(this.route==null)
+        {
+            return true;
+        }
+        return false;
+    }
+    /**Metoda która porusza statek*/
+    public void move()
+    {
+        this.distance=this.distance-this.speed;
+        if(this.distance<=0)
+        {
+            this.position=this.route;
+        }
+    }
+    /**Metoda która sprawdza czy statek jest w mieście*/
+    public boolean inCity()
+    {
+        if(this.position==this.route)
+        {
+            return true;
+        }
+        else return false;
+    }
 }

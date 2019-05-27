@@ -12,12 +12,12 @@ import java.util.Iterator;
 public class Map implements IMap
 {
     private final int size;
-    private ArrayList<City> cities;
-    private ArrayList<Nation> nations;
+    private ArrayList<ICity> cities;
+    private ArrayList<INation> nations;
     public Map(int size)
     {
-    this.cities=new ArrayList<City>();
-    this.nations=new ArrayList<Nation>();
+    this.cities=new ArrayList<ICity>();
+    this.nations=new ArrayList<INation>();
     this.size=size;
     }
     /**Metoda Dodająca miasta*/
@@ -33,7 +33,7 @@ public class Map implements IMap
     /**metoda która udostępniająca rozmiar mapy*/
     public int getSize()
     {
-        return this.size[0];
+        return this.size;
     }
     /**metoda która udostępnia określoną nację*/
     public INation getNation(int nrNation)

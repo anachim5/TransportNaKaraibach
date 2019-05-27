@@ -16,10 +16,11 @@ public class Simulation
     private IMap Mapa;
     private IResults Results;
     private IRandomize randomize;
-    public Simulation()
+    private ISeed seed;
+    public Simulation(ISeed seed)
     {
         this.Results=new Results();
-        this.randomize=new Randomize();
+        this.randomize=new Randomize(this.seed);
     }
 
     private void createMap(int size)
@@ -37,13 +38,13 @@ public class Simulation
     {
         this.Mapa.AddCity(new City(name,price,position));
     }
-    private void createWarship(Nation nation,int attack,int capacity,int speed,String country,Map mapa,int Nr)
+    private void createWarship(Nation nation,int attack,int capacity,int speed,String country,IMap mapa,int Nr)
     {
         WarShip statek = new WarShip(attack,capacity,speed,country,mapa,Nr);
 
         nation.getFleet().addShip(statek);
     }
-    private void createTradeShip(Nation nation,int attack,int capacity,int speed,String country,Map mapa,int Nr)
+    private void createTradeShip(Nation nation,int attack,int capacity,int speed,String country,IMap mapa,int Nr)
     {
         TradeShip statek = new TradeShip(attack,capacity,speed,country,mapa,Nr);
 
@@ -76,7 +77,7 @@ public class Simulation
          {
              String randomName=this.randomize.randomizeName();
              int randomPrice=this.randomize.randomPrice();
-             int[] randomPosition=this.randomize.positionOfCity(this.Mapa);
+             int[] randomPosition=this.randomize.posofCity(this.Mapa);
              this.createCity(randomName,randomPrice,randomPosition);
          }
          /**          * 1.3.Tworzenie nacji*/
@@ -126,7 +127,11 @@ public class Simulation
             {
                 IShip ship=(Aship) fleetIterator.next();
             /** 2.1 Sprawdzenie czy statek ma trasę,jeśli nie nadanie mu trasy.*/
-
+            if(!ship.hasRoute())
+            {
+                ship.AddRoute(this.randomize.createRoute(this.Mapa));
+                ship.move();
+            }
             }
         }
         /**         * 2.1 Sprawdzenie czy statek ma trasę,jeśli nie nadanie mu trasy.*/

@@ -12,7 +12,9 @@ public class main
 {
 public static void main()
 {
-
+ISeed seed=new Seed();
+seed.setSeed(233456234);
+Simulation sim=new Simulation(seed);
 }
 }
 /**@author Kacper Jaskulski 2019*/

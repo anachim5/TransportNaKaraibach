@@ -1,3 +1,5 @@
+import java.util.Random;
+
 /** Interfejs klasy odpowiedzialny za losowanie parametrów symulacji*/
 public  interface IRandomize
 {
@@ -26,7 +28,16 @@ public  interface IRandomize
     /**metoda tworząca losową ilość ticków symulacji*/
       int randomTime();
     /**metoda tworząca losową trasę do miasta na mapie*/
-      int[] createRoute(Map mapa);
+      int[] createRoute(IMap mapa);
     /**Metoda wybierajaca losowa pozycje miasta na mapie*/
-      int[] positionOfCity(Map mapa);
+      static int[] positionOfCity(IMap mapa)
+      {
+          Random gen = new Random();
+          int x=gen.nextInt(mapa.getSize());
+          int y=gen.nextInt(mapa.getSize());
+          int d[]={x,y};
+          return d;
+      }
+    /**Metoda wybierajaca losowa pozycje miasta na mapie*/
+      int[] posofCity(IMap mapa);
 }
