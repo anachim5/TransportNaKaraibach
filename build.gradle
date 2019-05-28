@@ -21,4 +21,4 @@ jar{
 }
 apply plugin: 'application'
 
-mainClassName = 'java.main'
+mainClassName = 'main'
