@@ -5,12 +5,10 @@ import java.util.Iterator;
  * Klasa w której wykonywane są działania niezbędnę do przeprowadzenia symulacji.
  * Zawiera ona metody:
  * {@link #runSimulation(boolean random)},która uruchamia symulację,
- * {@param random} odpowiada za to czy cała symulacja ma być losowa czy użytkownik ustala jej parametry
  * {@link #createMap(int )},która tworzy mapę,
  * {@link #createNation(String,int)},która tworzy nację na mapie,
  * {@link #createCity(String,int,int[])},która umieszcza miasta na mapie,
- * {@link #createResults()},która tworzy wyniki.
- * konstruktor{@link #Simulation()}, który inicjalizuję mapę oraz wyniki.
+ * konstruktor{@link #Simulation(ISeed seed)}, który inicjalizuję mapę oraz wyniki.
  */
 public class Simulation
 {

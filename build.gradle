@@ -19,6 +19,18 @@ jar{
     baseName='Projekt-Transport_Na_Karaibach'
     version= $/1.0.0/$
 }
+sourceSets {
+    build {
+        java.srcDir file('src/main/java')
+
+    }
+}
+javadoc {
+    source = sourceSets.main.allJava
+    classpath = configurations.compile
+    options.encoding = 'UTF-8'
+}
+
 apply plugin: 'application'
 
 mainClassName = 'main'

@@ -9,7 +9,10 @@ public class City implements ICity
     private final String name;
     private final int price;
     private final int[] position;
-    /**Konstruktor tworzący obiekt*/
+    /**Konstruktor tworzący obiekt
+     * @param name nazwa miasta
+     * @param price cena produktu w miescie
+     * @param position pozycja miasta na mapie*/
     public City(String name,int price,int[] position)
     {
         this.name=name;

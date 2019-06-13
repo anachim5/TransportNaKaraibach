@@ -82,7 +82,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\Projekt-Transport_Na_Karaibach-1.0.0.jar
 
 @rem Execute Transport na Karaibach - Projekt
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TRANSPORT_NA_KARAIBACH_PROJEKT_OPTS%  -classpath "%CLASSPATH%" java.main %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TRANSPORT_NA_KARAIBACH_PROJEKT_OPTS%  -classpath "%CLASSPATH%" main %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

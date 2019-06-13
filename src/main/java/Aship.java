@@ -19,7 +19,13 @@ public  abstract class Aship implements IShip
     private final String country;
     private final int Nr;
     private int inventory;
-    /**Konstruktor statku*/
+    /**Konstruktor statku
+     * @param attack atak statku
+     * @param capacity pojemnosc statku
+     * @param speed predkosc statku
+     * @param country nacja do której należy statek
+     * @param mapa mapa na której znajduje sie statek
+     * @param Nr numer statku*/
     public Aship(int attack,int capacity,int speed,String country,IMap mapa,int Nr)
     {
         /**

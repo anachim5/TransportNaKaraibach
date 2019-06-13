@@ -3,8 +3,10 @@
  */
 public interface ICity
 {
-    /**Metoda udostępniająca pozycję danego miasta na mapie*/
+    /**Metoda udostępniająca pozycję danego miasta na mapie
+     * @return pozycja miasta*/
     int[] getPosition();
-    /**Metoda udostępniająca cenę sprzedaży produktu w danym mieście*/
+    /**Metoda udostępniająca cenę sprzedaży produktu w danym mieście
+     * @return cena produktu w miescie*/
     int getProductPrice();
 }

@@ -10,7 +10,9 @@ private Random generator;
 private ArrayList<String> CityNames;
 private ArrayList<String> NationNames;
 
-/**Konstruktor*/
+/**Konstruktor*
+ * @param seed ziarno generatora losowego
+ */
 public Randomize(ISeed seed)
 {
     this.seed=seed;

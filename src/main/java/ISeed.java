@@ -2,8 +2,10 @@
  * oraz uzyskanie ziarna generatora losowego{@link #getSeed}*/
 public interface ISeed
 {
-    /**Metoda zwracająca ziatno generatora losowego*/
+    /**Metoda zwracająca ziatno generatora losowego
+     * @return ziarno generatora losowego*/
     long getSeed();
-    /**Metoda pozwalająca na ustawienie ziarna generatora losowego*/
+    /**Metoda pozwalająca na ustawienie ziarna generatora losowego
+     * @param seed ziarno generatora losowego*/
     void setSeed(long seed);
 }

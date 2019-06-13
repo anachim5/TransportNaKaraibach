@@ -14,7 +14,9 @@ public class Nation implements INation
     private final String name;
     private int tresure;
     private Fleet fleet;
-    /**Konstruktor floty */
+    /**Konstruktor nacji
+     * @param name nazwa nacji
+     * @param tresure poczatkowa wartosc skarbca nacji*/
     public Nation(String name,int tresure)
     {
         this.name = name;

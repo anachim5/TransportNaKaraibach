@@ -8,10 +8,13 @@ import java.util.Iterator;
  */
 public interface IFleet
 {
-    /**Metoda dodająca statek do floty.*/
+    /**Metoda dodająca statek do floty.
+     * @param statek statek na którym ma być wykonana akcja*/
     public void addShip(IShip statek);
-    /**Metoda usuwająca statek z floty*/
+    /**Metoda usuwająca statek z floty
+     * @param statek statek na którym ma być wykonana akcja*/
     public void deleteShip(IShip statek);
-    /**Metoda udostępniająca iterator floty*/
+    /**Metoda udostępniająca iterator floty
+     * @return Iterator floty*/
     public Iterator getFleetIterator();
 }
