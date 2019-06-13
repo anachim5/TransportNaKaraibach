@@ -6,8 +6,11 @@ public class Randomize implements IRandomize
 {
 /**Ziarno generatora losowego*/
 private static ISeed seed;
+/**Generator losowy*/
 private Random generator;
+/**Lista nazwa miast*/
 private ArrayList<String> CityNames;
+/**Lista nazw państw*/
 private ArrayList<String> NationNames;
 
 /**Konstruktor*

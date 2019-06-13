@@ -10,14 +10,23 @@
  */
 public  abstract class Aship implements IShip
 {
+    /**Atak statku*/
     private final int attack;
+    /**Pojemność statku*/
     private final int capacity;
+    /**Prędkość statku*/
     private final int speed;
+    /**Cel statku*/
     private int[] route;
+    /**Pozycja statku*/
     private int[] position;
+    /**Odleglosc do celu statku*/
     private int distance;
+    /**Nacja do której należy statek*/
     private final String country;
+    /**Numer statku*/
     private final int Nr;
+    /**Ładunek statku*/
     private int inventory;
     /**Konstruktor statku
      * @param attack atak statku
@@ -89,7 +98,7 @@ public  abstract class Aship implements IShip
         }
         catch (NullPointerException e)
         {
-            this.distance=100;
+            this.distance=1000;
         }
     }
 

@@ -11,9 +11,16 @@ import java.util.Iterator;
  */
 public class Map implements IMap
 {
+    /**Rozmiar mapy*/
     private final int size;
+    /**Lista miast na mapie*/
     private ArrayList<ICity> cities;
+    /**Lista nacji na mapie*/
     private ArrayList<INation> nations;
+
+    /**Konstruktor tworzący mapę.
+     * @param size rozmiar mapy
+     */
     public Map(int size)
     {
     this.cities=new ArrayList<ICity>();

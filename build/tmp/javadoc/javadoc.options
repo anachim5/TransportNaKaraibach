@@ -1,6 +1,7 @@
 -d 'D:\\AAaa\\Projekt-Transport Na Karaibach\\build\\docs\\javadoc'
 -doctitle 'Transport na Karaibach - Projekt 1.0 API'
 -encoding 'UTF-8'
+-private 
 -quiet 
 -windowtitle 'Transport na Karaibach - Projekt 1.0 API'
 'D:\\AAaa\\Projekt-Transport Na Karaibach\\src\\main\\java\\Aship.java'

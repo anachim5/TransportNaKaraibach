@@ -1,4 +1,4 @@
-/**Interfejs klasy{@link Seed} zawierający metody pozwalające na ustawienie {@link #setSeed}
+/**Interfejs klasy {@link Seed} zawierający metody pozwalające na ustawienie {@link #setSeed}
  * oraz uzyskanie ziarna generatora losowego{@link #getSeed}*/
 public interface ISeed
 {

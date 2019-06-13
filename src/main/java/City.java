@@ -6,8 +6,11 @@
  */
 public class City implements ICity
 {
+    /**Nazwa miasta*/
     private final String name;
+    /**Cena produktu w miescie*/
     private final int price;
+    /**Pozycja miasta na mapie*/
     private final int[] position;
     /**Konstruktor tworzący obiekt
      * @param name nazwa miasta

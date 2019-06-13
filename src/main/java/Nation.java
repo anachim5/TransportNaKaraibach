@@ -11,8 +11,11 @@
  */
 public class Nation implements INation
 {
+    /**Nazwa nacji*/
     private final String name;
+    /** Skarbiec nacji*/
     private int tresure;
+    /**Flota nacji*/
     private Fleet fleet;
     /**Konstruktor nacji
      * @param name nazwa nacji

@@ -10,7 +10,7 @@ import java.util.Iterator;
  * {@link #getFleetIterator()},udostępniającą iterator floty.
  */
 public class Fleet implements IFleet
-{
+{   /**Lista statków we flocie*/
     private ArrayList<IShip> fleet;
     /** Konstruktor tworzący flotę.*/
     public Fleet()
