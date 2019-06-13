@@ -207,7 +207,7 @@ public class Simulation
                         //System.out.println("Ship in city");
                     }
                     /**         * 2.3 Sprawdzenie czy statek jest w walce z innym.*/
-                    //TODO
+                    ship.fight(Mapa);
                     /**          * 2.4 Ruch statku jeśli żaden z powyższych warunków nie został spełniony.*/
                     ship.move();
                 }
@@ -325,7 +325,7 @@ public class Simulation
                         //System.out.println("Ship in city");
                     }
                     /**         * 2.3 Sprawdzenie czy statek jest w walce z innym.*/
-                    //TODO
+                    ship.fight(Mapa);
                     /**          * 2.4 Ruch statku jeśli żaden z powyższych warunków nie został spełniony.*/
                     ship.move();
                 }

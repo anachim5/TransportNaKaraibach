@@ -51,4 +51,8 @@ public interface IShip
     /**Metoda która sprawdza czy statek jest w mieście
      * @return dokowanie statku*/
     public boolean inCity();
+    /**Metoda która definiuje walkę statków
+     * @param mapa mapa na której dzieje się symulacja*/
+    void fight(IMap mapa);
+
 }

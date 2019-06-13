@@ -1,3 +1,5 @@
+import java.util.Iterator;
+
 /**Klasa abstrakcyjna definiująca statek.
  * Parametry statku to:
  *-atak,
@@ -133,4 +135,13 @@ public  abstract class Aship implements IShip
         }
         else return false;
     }
+    /**Metoda która dodaje zawartość do ekwipunku statków*/
+    public void addInventory(int wartosc)
+    {
+        this.inventory+=wartosc;
+    }
+    /**Metoda walki statków*/
+    public abstract void fight(IMap mapa);
+
+
 }

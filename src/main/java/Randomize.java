@@ -76,13 +76,13 @@ public Randomize(ISeed seed)
     /**metoda tworzaca losowa predkosc statku*/
     public int randomSpeed()
     {
-        int x=this.generator.nextInt(30)+1;
+        int x=this.generator.nextInt(3)+1;
         return x;
     }
     /**metoda tworząca losową pojemnośc statku*/
     public int randomCapacity()
     {
-        int x=this.generator.nextInt(150)+20;
+        int x=this.generator.nextInt(15)+20;
         return x;
     }
     /**metoda tworząca losową ilość statków we flocie*/
