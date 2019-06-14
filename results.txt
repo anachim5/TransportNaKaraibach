@@ -1,0 +1,989 @@
+Start of Simulation 2019-05-28T10:54:33.049222
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 3000
+Nacja   |   Zloto
+Rum Point |  5480521
+Cienfuegos |  4950088
+Nassau |  8471112
+Cienfuegos |  7811482
+
+Result for tick: 6000
+Nacja   |   Zloto
+Rum Point |  11060281
+Cienfuegos |  9763941
+Nassau |  17259294
+Cienfuegos |  15499806
+
+Result for tick: 9000
+Nacja   |   Zloto
+Rum Point |  16540022
+Cienfuegos |  14535977
+Nassau |  25794957
+Cienfuegos |  23270497
+
+Result for tick: 12000
+Nacja   |   Zloto
+Rum Point |  21945000
+Cienfuegos |  19447432
+Nassau |  34422734
+Cienfuegos |  30848995
+
+Result for tick: 15000
+Nacja   |   Zloto
+Rum Point |  27487124
+Cienfuegos |  24335531
+Nassau |  43098762
+Cienfuegos |  38624612
+
+Result for tick: 18000
+Nacja   |   Zloto
+Rum Point |  32931410
+Cienfuegos |  29081236
+Nassau |  51604987
+Cienfuegos |  46365458
+
+Result for tick: 20029
+Nacja   |   Zloto
+Rum Point |  36722209
+Cienfuegos |  32365785
+Nassau |  57480049
+Cienfuegos |  51604380
+
+Start of Simulation 2019-06-13T15:44:05.819310900
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 3000
+Nacja   |   Zloto
+Rum Point |  5686146
+Cienfuegos |  4829169
+Nassau |  8435266
+Cienfuegos |  7808106
+
+Result for tick: 6000
+Nacja   |   Zloto
+Rum Point |  11346759
+Cienfuegos |  9635595
+Nassau |  17060100
+Cienfuegos |  15548899
+
+Result for tick: 9000
+Nacja   |   Zloto
+Rum Point |  16964613
+Cienfuegos |  14427723
+Nassau |  25540481
+Cienfuegos |  23197346
+
+Result for tick: 12000
+Nacja   |   Zloto
+Rum Point |  22477840
+Cienfuegos |  19353101
+Nassau |  34163691
+Cienfuegos |  30822408
+
+Result for tick: 15000
+Nacja   |   Zloto
+Rum Point |  28134644
+Cienfuegos |  24333465
+Nassau |  42697840
+Cienfuegos |  38613781
+
+Result for tick: 18000
+Nacja   |   Zloto
+Rum Point |  33696767
+Cienfuegos |  29168708
+Nassau |  51145820
+Cienfuegos |  46150070
+
+Result for tick: 20029
+Nacja   |   Zloto
+Rum Point |  37464201
+Cienfuegos |  32384459
+Nassau |  57015578
+Cienfuegos |  51408108
+
+Start of Simulation 2019-06-13T15:58:10.201418800
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 3000
+Nacja   |   Zloto
+Rum Point |  5611346
+Cienfuegos |  4807391
+Nassau |  8598948
+Cienfuegos |  7907107
+
+Result for tick: 6000
+Nacja   |   Zloto
+Rum Point |  11170547
+Cienfuegos |  9620835
+Nassau |  17340907
+Cienfuegos |  15700850
+
+Result for tick: 9000
+Nacja   |   Zloto
+Rum Point |  16748629
+Cienfuegos |  14458680
+Nassau |  25850112
+Cienfuegos |  23303399
+
+Result for tick: 12000
+Nacja   |   Zloto
+Rum Point |  22186107
+Cienfuegos |  19352780
+Nassau |  34334833
+Cienfuegos |  31118708
+
+Result for tick: 15000
+Nacja   |   Zloto
+Rum Point |  27883164
+Cienfuegos |  24209271
+Nassau |  42834872
+Cienfuegos |  38887557
+
+Result for tick: 18000
+Nacja   |   Zloto
+Rum Point |  33416253
+Cienfuegos |  28857492
+Nassau |  51354244
+Cienfuegos |  46586541
+
+Result for tick: 20029
+Nacja   |   Zloto
+Rum Point |  37176935
+Cienfuegos |  32259907
+Nassau |  57275558
+Cienfuegos |  51755210
+
+Start of Simulation 2019-06-13T16:41:57.792372500
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 3000
+Nacja   |   Zloto
+Rum Point |  5537780
+Cienfuegos |  4799919
+Nassau |  8570494
+Cienfuegos |  7751801
+
+Result for tick: 6000
+Nacja   |   Zloto
+Rum Point |  10943767
+Cienfuegos |  9685180
+Nassau |  17289922
+Cienfuegos |  15484102
+
+Result for tick: 9000
+Nacja   |   Zloto
+Rum Point |  16502041
+Cienfuegos |  14506138
+Nassau |  25772036
+Cienfuegos |  23132269
+
+Result for tick: 12000
+Nacja   |   Zloto
+Rum Point |  22098671
+Cienfuegos |  19394542
+Nassau |  34309827
+Cienfuegos |  30797476
+
+Result for tick: 15000
+Nacja   |   Zloto
+Rum Point |  27601837
+Cienfuegos |  24213300
+Nassau |  43093438
+Cienfuegos |  38511349
+
+Result for tick: 18000
+Nacja   |   Zloto
+Rum Point |  33028311
+Cienfuegos |  28982175
+Nassau |  51649568
+Cienfuegos |  46128693
+
+Result for tick: 20029
+Nacja   |   Zloto
+Rum Point |  36921586
+Cienfuegos |  32383025
+Nassau |  57437982
+Cienfuegos |  51298456
+
+Start of Simulation 2019-06-13T22:09:52.451017700
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17758
+Cienfuegos |  17022
+
+Result for tick: 3000
+Nacja   |   Zloto
+Rum Point |  5583138
+Cienfuegos |  4897632
+Nassau |  8575573
+Cienfuegos |  7610458
+
+Result for tick: 6000
+Nacja   |   Zloto
+Rum Point |  11166713
+Cienfuegos |  9854899
+Nassau |  17033846
+Cienfuegos |  15350325
+
+Result for tick: 9000
+Nacja   |   Zloto
+Rum Point |  16726895
+Cienfuegos |  14752277
+Nassau |  25468249
+Cienfuegos |  22959529
+
+Result for tick: 12000
+Nacja   |   Zloto
+Rum Point |  22279073
+Cienfuegos |  19669868
+Nassau |  34028388
+Cienfuegos |  30703788
+
+Result for tick: 15000
+Nacja   |   Zloto
+Rum Point |  27930380
+Cienfuegos |  24675041
+Nassau |  42605348
+Cienfuegos |  38396178
+
+Result for tick: 18000
+Nacja   |   Zloto
+Rum Point |  33576366
+Cienfuegos |  29385243
+Nassau |  50973782
+Cienfuegos |  46012345
+
+Result for tick: 20029
+Nacja   |   Zloto
+Rum Point |  37497904
+Cienfuegos |  32713517
+Nassau |  56625077
+Cienfuegos |  51179998
+
+Start of Simulation 2019-06-13T22:10:44.955777300
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 3000
+Nacja   |   Zloto
+Rum Point |  5601037
+Cienfuegos |  4914299
+Nassau |  8488550
+Cienfuegos |  7659623
+
+Result for tick: 6000
+Nacja   |   Zloto
+Rum Point |  11327025
+Cienfuegos |  9766834
+Nassau |  17025245
+Cienfuegos |  15394046
+
+Result for tick: 9000
+Nacja   |   Zloto
+Rum Point |  16771322
+Cienfuegos |  14552273
+Nassau |  25699994
+Cienfuegos |  22969978
+
+Result for tick: 12000
+Nacja   |   Zloto
+Rum Point |  22355856
+Cienfuegos |  19398688
+Nassau |  34272597
+Cienfuegos |  30640132
+
+Result for tick: 15000
+Nacja   |   Zloto
+Rum Point |  27884016
+Cienfuegos |  24284913
+Nassau |  43033845
+Cienfuegos |  38429992
+
+Result for tick: 18000
+Nacja   |   Zloto
+Rum Point |  33305832
+Cienfuegos |  29069220
+Nassau |  51334011
+Cienfuegos |  46280363
+
+Result for tick: 20029
+Nacja   |   Zloto
+Rum Point |  37151733
+Cienfuegos |  32412935
+Nassau |  57206459
+Cienfuegos |  51376671
+
+Start of Simulation 2019-06-13T22:17:25.458459600
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 3000
+Nacja   |   Zloto
+Rum Point |  5602005
+Cienfuegos |  4856557
+Nassau |  8447481
+Cienfuegos |  7889634
+
+Result for tick: 6000
+Nacja   |   Zloto
+Rum Point |  11054159
+Cienfuegos |  9788299
+Nassau |  16961150
+Cienfuegos |  15798654
+
+Result for tick: 9000
+Nacja   |   Zloto
+Rum Point |  16514915
+Cienfuegos |  14502375
+Nassau |  25425052
+Cienfuegos |  23666932
+
+Result for tick: 12000
+Nacja   |   Zloto
+Rum Point |  22005649
+Cienfuegos |  19248027
+Nassau |  34026204
+Cienfuegos |  31466641
+
+Result for tick: 15000
+Nacja   |   Zloto
+Rum Point |  27645060
+Cienfuegos |  24158456
+Nassau |  42628604
+Cienfuegos |  39184905
+
+Result for tick: 18000
+Nacja   |   Zloto
+Rum Point |  33159363
+Cienfuegos |  28785920
+Nassau |  51376008
+Cienfuegos |  46931971
+
+Result for tick: 20029
+Nacja   |   Zloto
+Rum Point |  36941489
+Cienfuegos |  32137925
+Nassau |  57249017
+Cienfuegos |  52141744
+
+Start of Simulation 2019-06-13T22:18:02.318749700
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17424
+
+Result for tick: 3000
+Nacja   |   Zloto
+Rum Point |  5605497
+Cienfuegos |  4829832
+Nassau |  8513106
+Cienfuegos |  7954360
+
+Result for tick: 6000
+Nacja   |   Zloto
+Rum Point |  11339163
+Cienfuegos |  9633338
+Nassau |  17084725
+Cienfuegos |  15780804
+
+Result for tick: 9000
+Nacja   |   Zloto
+Rum Point |  16958149
+Cienfuegos |  14435621
+Nassau |  25509493
+Cienfuegos |  23594123
+
+Result for tick: 12000
+Nacja   |   Zloto
+Rum Point |  22466897
+Cienfuegos |  19204859
+Nassau |  34203483
+Cienfuegos |  31239840
+
+Result for tick: 15000
+Nacja   |   Zloto
+Rum Point |  28080504
+Cienfuegos |  24032260
+Nassau |  42989483
+Cienfuegos |  38947344
+
+Result for tick: 18000
+Nacja   |   Zloto
+Rum Point |  33629399
+Cienfuegos |  28904862
+Nassau |  51415527
+Cienfuegos |  46580278
+
+Result for tick: 20029
+Nacja   |   Zloto
+Rum Point |  37445554
+Cienfuegos |  32211255
+Nassau |  57209408
+Cienfuegos |  51910395
+
+Start of Simulation 2019-06-13T22:51:24.874738900
+Result for tick: 0
+Nacja   |   Zloto
+Montego Bay |  23000
+Havana |  23000
+Nassau |  23000
+Rum Point |  23000
+
+Result for tick: 0
+Nacja   |   Zloto
+Montego Bay |  23000
+Havana |  23000
+Nassau |  23000
+Rum Point |  23000
+
+Result for tick: 3000
+Nacja   |   Zloto
+Montego Bay |  14469529
+Havana |  10924653
+Nassau |  10455763
+Rum Point |  11264797
+
+Result for tick: 6000
+Nacja   |   Zloto
+Montego Bay |  28831966
+Havana |  21890549
+Nassau |  20892071
+Rum Point |  22497240
+
+Result for tick: 9000
+Nacja   |   Zloto
+Montego Bay |  43323293
+Havana |  32843612
+Nassau |  31536231
+Rum Point |  33752427
+
+Result for tick: 10000
+Nacja   |   Zloto
+Montego Bay |  48237351
+Havana |  36419509
+Nassau |  35075559
+Rum Point |  37571478
+
+Start of Simulation 2019-06-13T23:27:53.662264300
+Result for tick: 0
+Nacja   |   Zloto
+Montego Bay |  14945
+Havana |  14945
+Nassau |  14945
+Rum Point |  14945
+Moa |  14945
+Cienfuegos |  14945
+Havana |  14945
+
+Result for tick: 0
+Nacja   |   Zloto
+Montego Bay |  14945
+Havana |  14945
+Nassau |  14945
+Rum Point |  14945
+Moa |  14945
+Cienfuegos |  14945
+Havana |  14945
+
+Result for tick: 3000
+Nacja   |   Zloto
+Montego Bay |  1463391
+Havana |  861928
+Nassau |  1226794
+Rum Point |  806564
+Moa |  1441600
+Cienfuegos |  1314538
+Havana |  1260709
+
+Result for tick: 6000
+Nacja   |   Zloto
+Montego Bay |  2841206
+Havana |  1703780
+Nassau |  2390337
+Rum Point |  1571970
+Moa |  2888669
+Cienfuegos |  2693928
+Havana |  2479213
+
+Result for tick: 9000
+Nacja   |   Zloto
+Montego Bay |  4264934
+Havana |  2589187
+Nassau |  3600474
+Rum Point |  2348062
+Moa |  4416287
+Cienfuegos |  3985925
+Havana |  3689648
+
+Result for tick: 12000
+Nacja   |   Zloto
+Montego Bay |  5687278
+Havana |  3423979
+Nassau |  4783027
+Rum Point |  3106725
+Moa |  5880701
+Cienfuegos |  5379233
+Havana |  4923144
+
+Result for tick: 13675
+Nacja   |   Zloto
+Montego Bay |  6498682
+Havana |  3894673
+Nassau |  5430548
+Rum Point |  3540074
+Moa |  6738817
+Cienfuegos |  6134289
+Havana |  5630949
+
+Start of Simulation 2019-06-14T00:38:37.644566400
+Result for tick: 0
+Nacja   |   Zloto
+Rocker`s |  234
+Varadero |  234
+Trinidad |  234
+Rum Point |  234
+Blossom Village |  234
+Montego Bay |  234
+Flamenco |  234
+
+Result for tick: 0
+Nacja   |   Zloto
+Rocker`s |  234
+Varadero |  234
+Trinidad |  234
+Rum Point |  234
+Blossom Village |  234
+Montego Bay |  234
+Flamenco |  234
+
+Result for tick: 2345
+Nacja   |   Zloto
+Rocker`s |  34771891
+Varadero |  42242723
+Trinidad |  19986643
+Rum Point |  24805756
+Blossom Village |  576801
+Montego Bay |  23388455
+Flamenco |  4111356
+
+Start of Simulation 2019-06-14T00:49:45.591555300
+Result for tick: 0
+Nacja   |   Zloto
+Trinidad |  1
+Port-Au-Prince |  1
+Trinidad |  1
+Havana |  1
+Rocker`s |  1
+Varadero |  1
+Trinidad |  1
+
+Result for tick: 0
+Nacja   |   Zloto
+Trinidad |  1
+Port-Au-Prince |  1
+Trinidad |  1
+Havana |  1
+Rocker`s |  1
+Varadero |  1
+Trinidad |  1
+
+Result for tick: 2134
+Nacja   |   Zloto
+Trinidad |  -855321999
+Port-Au-Prince |  1842806268
+Trinidad |  103865056
+Havana |  1149514905
+Rocker`s |  -484997020
+Varadero |  -1958991399
+Trinidad |  25765
+
+Start of Simulation 2019-06-14T00:52:48.337469900
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 0
+Nacja   |   Zloto
+Rum Point |  17022
+Cienfuegos |  17022
+Nassau |  17022
+Cienfuegos |  17022
+
+Result for tick: 3000
+Nacja   |   Zloto
+Rum Point |  2087017
+Cienfuegos |  3701966
+Nassau |  -189959251
+Cienfuegos |  30424
+
+Result for tick: 6000
+Nacja   |   Zloto
+Rum Point |  7021565
+Cienfuegos |  6190154
+Nassau |  -448385054
+Cienfuegos |  49613
+
+Result for tick: 9000
+Nacja   |   Zloto
+Rum Point |  10157930
+Cienfuegos |  12830310
+Nassau |  -592552677
+Cienfuegos |  65104
+
+Result for tick: 12000
+Nacja   |   Zloto
+Rum Point |  12525756
+Cienfuegos |  17361729
+Nassau |  -753199822
+Cienfuegos |  78427
+
+Result for tick: 15000
+Nacja   |   Zloto
+Rum Point |  17332696
+Cienfuegos |  15363134
+Nassau |  -1857432840
+Cienfuegos |  96432
+
+Result for tick: 18000
+Nacja   |   Zloto
+Rum Point |  21300532
+Cienfuegos |  -262667798
+Nassau |  -1695721598
+Cienfuegos |  113488
+
+Result for tick: 20029
+Nacja   |   Zloto
+Rum Point |  23200865
+Cienfuegos |  1459132217
+Nassau |  -683772240
+Cienfuegos |  122799
+
+Start of Simulation 2019-06-14T00:53:54.852406
+Result for tick: 0
+Nacja   |   Zloto
+Flamenco |  22636
+Rum Point |  22636
+Montego Bay |  22636
+Nassau |  22636
+
+Result for tick: 0
+Nacja   |   Zloto
+Flamenco |  22636
+Rum Point |  22636
+Montego Bay |  22636
+Nassau |  22636
+
+Result for tick: 3000
+Nacja   |   Zloto
+Flamenco |  627684456
+Rum Point |  1761316598
+Montego Bay |  60439
+Nassau |  576816669
+
+Result for tick: 6000
+Nacja   |   Zloto
+Flamenco |  774684410
+Rum Point |  -1020390865
+Montego Bay |  97829
+Nassau |  179182826
+
+Result for tick: 9000
+Nacja   |   Zloto
+Flamenco |  369724892
+Rum Point |  1558614119
+Montego Bay |  129272
+Nassau |  -293042758
+
+Result for tick: 12000
+Nacja   |   Zloto
+Flamenco |  -357571938
+Rum Point |  -265768761
+Montego Bay |  162552
+Nassau |  2134250982
+
+Result for tick: 15000
+Nacja   |   Zloto
+Flamenco |  -957098679
+Rum Point |  -1825699464
+Montego Bay |  195323
+Nassau |  -103050391
+
+Result for tick: 18000
+Nacja   |   Zloto
+Flamenco |  218471639
+Rum Point |  388186574
+Montego Bay |  231540
+Nassau |  418029604
+
+Result for tick: 20702
+Nacja   |   Zloto
+Flamenco |  -2052540862
+Rum Point |  1457129353
+Montego Bay |  267019
+Nassau |  886163739
+
+Start of Simulation 2019-06-14T00:55:48.372852400
+Result for tick: 0
+Nacja   |   Zloto
+Flamenco |  22636
+Rum Point |  22636
+Montego Bay |  22636
+Nassau |  22636
+
+Result for tick: 0
+Nacja   |   Zloto
+Flamenco |  22636
+Rum Point |  22636
+Montego Bay |  22636
+Nassau |  22636
+
+Result for tick: 3000
+Nacja   |   Zloto
+Flamenco |  1581155021
+Rum Point |  -1708467117
+Montego Bay |  59942
+Nassau |  -2087742744
+
+Result for tick: 6000
+Nacja   |   Zloto
+Flamenco |  -369449497
+Rum Point |  -1387687727
+Montego Bay |  95600
+Nassau |  1605339285
+
+Result for tick: 9000
+Nacja   |   Zloto
+Flamenco |  -2107355723
+Rum Point |  -1563205430
+Montego Bay |  129379
+Nassau |  -1433504847
+
+Result for tick: 12000
+Nacja   |   Zloto
+Flamenco |  46791109
+Rum Point |  200038527
+Montego Bay |  166530
+Nassau |  -2051084481
+
+Result for tick: 15000
+Nacja   |   Zloto
+Flamenco |  -1556547765
+Rum Point |  -1590560351
+Montego Bay |  205301
+Nassau |  631918800
+
+Result for tick: 18000
+Nacja   |   Zloto
+Flamenco |  -1916858357
+Rum Point |  -588384199
+Montego Bay |  239794
+Nassau |  -1801348044
+
+Result for tick: 20702
+Nacja   |   Zloto
+Flamenco |  824721950
+Rum Point |  -659396651
+Montego Bay |  271587
+Nassau |  1817602687
+
+Start of Simulation 2019-06-14T02:04:13.906495400
+Result for tick: 0
+Nacja   |   Zloto
+Flamenco |  22636
+Rum Point |  22636
+Montego Bay |  22636
+Nassau |  22636
+
+Result for tick: 0
+Nacja   |   Zloto
+Flamenco |  22636
+Rum Point |  22636
+Montego Bay |  22636
+Nassau |  22636
+
+Result for tick: 3000
+Nacja   |   Zloto
+Flamenco |  -598370611
+Rum Point |  -2131742002
+Montego Bay |  59157
+Nassau |  -339240131
+
+Result for tick: 6000
+Nacja   |   Zloto
+Flamenco |  1650032376
+Rum Point |  2042411175
+Montego Bay |  95443
+Nassau |  531651109
+
+Result for tick: 9000
+Nacja   |   Zloto
+Flamenco |  74114441
+Rum Point |  83160568
+Montego Bay |  132950
+Nassau |  2033595743
+
+Result for tick: 12000
+Nacja   |   Zloto
+Flamenco |  -480980583
+Rum Point |  1190167729
+Montego Bay |  171320
+Nassau |  -473937107
+
+Result for tick: 15000
+Nacja   |   Zloto
+Flamenco |  -460042336
+Rum Point |  1881876378
+Montego Bay |  209597
+Nassau |  1505744914
+
+Result for tick: 18000
+Nacja   |   Zloto
+Flamenco |  -1731544380
+Rum Point |  -868605559
+Montego Bay |  244303
+Nassau |  472820411
+
+Result for tick: 20702
+Nacja   |   Zloto
+Flamenco |  -1462621775
+Rum Point |  -647227102
+Montego Bay |  278642
+Nassau |  8938138
+
+Start of Simulation 2019-06-14T02:12:16.931596800
+Result for tick: 0
+Nacja   |   Zloto
+Esperanza |  13721
+
+Result for tick: 0
+Nacja   |   Zloto
+Esperanza |  13721
+
+Result for tick: 3000
+Nacja   |   Zloto
+Esperanza |  2405193
+
+Result for tick: 6000
+Nacja   |   Zloto
+Esperanza |  4515104
+
+Result for tick: 9000
+Nacja   |   Zloto
+Esperanza |  6442145
+
+Result for tick: 12000
+Nacja   |   Zloto
+Esperanza |  8130684
+
+Result for tick: 15000
+Nacja   |   Zloto
+Esperanza |  10569176
+
+Result for tick: 18000
+Nacja   |   Zloto
+Esperanza |  12540338
+
+Result for tick: 21000
+Nacja   |   Zloto
+Esperanza |  14278784
+
+Result for tick: 24000
+Nacja   |   Zloto
+Esperanza |  16763798
+
+Result for tick: 26690
+Nacja   |   Zloto
+Esperanza |  21258862
+
