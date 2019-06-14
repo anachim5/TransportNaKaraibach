@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-14T00:01:08" hostname="Anachim" time="0.002">
+  <properties/>
+  <testcase name="TestName" classname="NationTests" time="0.0"/>
+  <testcase name="TestReturnedFleet" classname="NationTests" time="0.001"/>
+  <testcase name="TestTresure" classname="NationTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
