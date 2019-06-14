@@ -1,5 +1,3 @@
-import sun.jvm.hotspot.types.WrongTypeException;
-
 import java.util.Scanner;
 
 /**
@@ -18,8 +16,10 @@ public static void main(String[] args)
 {
 boolean random=false;
 ISeed seed=new Seed();
-System.out.println("Witaj w symulacji!");
-System.out.println("Czy chcesz aby byla ona w pelni losowa?(1/2)");
+System.out.println("Witaj w symulacji transportu na karaibach!");
+System.out.println("Czy chcesz aby byla ona w pelni losowa?");
+System.out.println("(1)Symulacja w pelni losowa");
+System.out.println("(2)Symulacja z mozliwymi do wyboru parametrami");
     Scanner scanner = new Scanner(System.in);
     int odp = scanner.nextInt();
     if(odp==1)
@@ -29,10 +29,10 @@ System.out.println("Czy chcesz aby byla ona w pelni losowa?(1/2)");
     if(odp==2)
     {
         random=false;
-        System.out.println("Podaj seed");
-        seed.setSeed(scanner.nextLong());
-    }
 
+    }
+System.out.println("Podaj seed");
+seed.setSeed(scanner.nextLong());
 
 
 

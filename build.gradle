@@ -30,6 +30,7 @@ javadoc {
     classpath = configurations.compile
     options.encoding = 'UTF-8'
     options.memberLevel = JavadocMemberLevel.PRIVATE
+    destinationDir = file("Docs")
 }
 run{
     standardInput = System.in

@@ -135,7 +135,8 @@ public  abstract class Aship implements IShip
         }
         else return false;
     }
-    /**Metoda która dodaje zawartość do ekwipunku statków*/
+    /**Metoda która dodaje zawartość do ekwipunku statków
+     * @param wartosc ilosc produktu jaka zyskuje statek*/
     public void addInventory(int wartosc)
     {
         this.inventory+=wartosc;

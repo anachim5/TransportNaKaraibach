@@ -1,4 +1,4 @@
--d 'D:\\AAaa\\Projekt-Transport Na Karaibach\\build\\docs\\javadoc'
+-d 'D:\\AAaa\\Projekt-Transport Na Karaibach\\Docs'
 -doctitle 'Transport na Karaibach - Projekt 1.0 API'
 -encoding 'UTF-8'
 -private 
