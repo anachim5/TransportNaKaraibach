@@ -13,3 +13,4 @@ Symulacja transportu na morzu karaibskim.Trwa 30 lat. Każda z tur to miesiąć 
 * Ilość statków
 * Statystyki statków
 * Czas symulacji ( liczba "ticków")
+### Pełna dokumentacja w [pliku pdf](https://github.com/anachim5/TransportNaKaraibach/blob/master/Documentation/Projekt_Etap_IV%20(1).pdf)
